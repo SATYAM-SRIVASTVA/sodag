@@ -1,0 +1,22 @@
+.diagonal{
+    background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    height: 90vh;
+    transform: skewY(-8deg);
+    position: relative;
+    z-index: -10;
+    margin-top: -6rem;
+}
+
+.diagonal:before {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, #654ea3, #eaafc8); 	
+    transform: skewY(-11deg);
+}
+
+.img-container{
+    width: 100%;
+}
