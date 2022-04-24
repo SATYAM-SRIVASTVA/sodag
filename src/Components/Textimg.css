@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: aquamarine;
+    margin-top: -6rem;
+    height: 60vh;
+}
+
+.purple>img{
+    height: 75%;
+    width: 100%;
+}
