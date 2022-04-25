@@ -3,8 +3,7 @@ import Gred from './Components/About/Type/Gred';
 import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import Ingestion from './Components/About/Type/Ingestion'
-import Stomachhurt from 
-'./Components/About/Type/Stomachhurt';
+import Stomachhurt from './Components/About/Type/Stomachhurt';
 import Understand from './Components/About/Acidity/understand';
 import Symptoms from './Components/About/Acidity/Symptoms';
 import Living from './Components/About/Acidity/Living';
@@ -12,6 +11,7 @@ import Remedies from './Components/About/Acidity/Remedies';
 import UnderstandHeartburn from './Components/About/Heartburn/UnderstandHeartburn';
 import SymptomsHeartburn from './Components/About/Heartburn/SymptomsHeartburn';
 import RemediesHeartburn from './Components/About/Heartburn/RemediesHeartburn';
+import Gas from './Components/About/GasRelief/Gas';
 
 function App() {
   return (
@@ -27,7 +27,8 @@ function App() {
     {/* <Remedies/> */}
     {/* <UnderstandHeartburn/> */}
     {/* <SymptomsHeartburn/> */}
-    <RemediesHeartburn/>
+    {/* <RemediesHeartburn/> */}
+    <Gas/>
     </>
   );
 }
