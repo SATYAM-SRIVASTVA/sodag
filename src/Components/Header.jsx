@@ -4,6 +4,9 @@ import Slider from 'react-slick'
 import img1 from '../Assets/img1.jpg'
 import img6 from '../Assets/img6.jpg'
 import img7 from '../Assets/img7.jpg'
+import Featured from './Featured';
+import Textimg from './Textimg';
+import Footer from './Footer';
 
 const Header = () => {
 
@@ -17,6 +20,7 @@ const Header = () => {
       pauseOnHover: true
       };
   return (
+    <>
     <div className="main-contianer">
     <div className="diagonal">
         <div className="img-container">
@@ -56,7 +60,11 @@ const Header = () => {
     </div>
     </div>
 
+<Featured/>
+<Textimg/>
+<Footer/>
 
+</>
   )
 }
 
