@@ -10,7 +10,9 @@ const Textimg = () => {
         <img src={img1} alt="" />
     </div>
     <div class="grid-child green">
-        <h1>Try sodaG Today</h1>
+        <h1>Did You Know ?</h1>
+        <p>People who are overweight or have high BMI are more likely to suffer from acidity.</p>
+        <a href=''><button className='red'>Learn More</button></a>
     </div>
 </div>
   )
