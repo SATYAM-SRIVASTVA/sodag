@@ -1,5 +1,5 @@
 import React from "react";
-import "./understand.css";
+import "./UnderstandHeartburn.css";
 
 const understand = () => {
   return (
@@ -9,10 +9,7 @@ const understand = () => {
           {/* first-container */}
           <div className="understand-first-container">
             <p className="understand-first-para">
-              Acidity problems affect up to 20% or more of adults on a regular
-              basis.1,2 So even though you might think
-              <br /> other people won’t understand what you’re going through,
-              you’re not alone.
+            Heartburn problems affect up to 20% or more of adults on a regular basis.1,2 So even though you might think other people won’t understand what you’re going through, you’re not alone.
             </p>
             <p>
               The most common problems associated with acidity are heartburn and
@@ -25,18 +22,14 @@ const understand = () => {
               <br /> throat.
             </p>
             <p>
-              Acidity symptoms can be very unpleasant and can strike at the most
-              inconvenient of times, but they can
-              <br /> usually be managed quickly and simply.
+            Heartburn symptoms can be very unpleasant and can strike at the most inconvenient of times, but they can usually be managed quickly and simply.
             </p>
           </div>
           {/* second-container */}
           <div className="understand-second-container">
-            <h2>What Is Acidity?</h2>
+            <h2>What Is Heartburn?</h2>
             <p>
-              To understand what acidity is, let’s revisit what we learned in
-              science class about the digestive
-              <br /> system.
+            To understand what heartburn is, let’s revisit what we learned in science class about the digestive system.
             </p>
             <p>
               When we swallow food or drink, it travels down a ‘pipe’ – called
@@ -64,7 +57,7 @@ const understand = () => {
 
           {/* third-container */}
           <div className="understand-third-container">
-            <h2>Causes And Risks For Acidity Problems</h2>
+            <h2>Causes And Risks For Heartburn Problems</h2>
             <p>
               While a weak or abnormally relaxed oesophageal sphincter is the
               main cause of heartburn, we don’t
@@ -93,7 +86,7 @@ const understand = () => {
               <div className="understand-firstrow-secondcol col col-lg-10 col-md-12 col-sm-12">
                 <div className="understand-vertical-line-first vertical-line ">
                   <h3>
-                    <strong>Do Certain Foods And Drinks Cause Acidity?</strong>
+                    <strong>Do Certain Foods And Drinks Cause Heartburn?</strong>
                   </h3>
                   <p>Yes, they do.</p>
                   <p>
@@ -126,7 +119,7 @@ const understand = () => {
               <div className="understand-firstrow-secondcol col col-lg-10 col-md-12 col-sm-12">
                 <div className="understand-vertical-line-first vertical-line ">
                   <h3>
-                    <strong>Do Certain Foods And Drinks Cause Acidity?</strong>
+                    <strong>Do Our Lifestyle Choices Cause Heartburn?</strong>
                   </h3>
                   <p>
                     Several of our lifestyle choices may be triggering
@@ -162,7 +155,7 @@ const understand = () => {
               <div className="understand-firstrow-secondcol col col-lg-10 col-md-12 col-sm-12">
                 <div className="understand-vertical-line-first vertical-line ">
                   <h3>
-                    <strong>Do Some Medications Cause Acidity?</strong>
+                    <strong>Do Some Medications Cause Heartburn?</strong>
                   </h3>
                   <p>
                     If you take any medicine on a regular basis, such as some
@@ -179,7 +172,7 @@ const understand = () => {
           {/* fourth-container */}
 
           <div className="understand-fourth-container">
-            <h2>Acidity Symptoms And Problems</h2>
+            <h2>Heartburn Symptoms And Problems</h2>
             <p>
               Most of us have experienced heartburn – that burning sensation in
               the chest – at
@@ -211,7 +204,7 @@ const understand = () => {
           </div>
           {/* fifth-container */}
           <div className="understand-fifth-container">
-            <h2>Do Acidity Problems Get Worse With Age?</h2>
+            <h2>Do Heartburn Problems Get Worse With Age?</h2>
 
             <div className="understand-fifth-row row" style={{ margin: "0" }}>
               <div className="undersand-fifth-firstcol col col-lg-10 col-md-12 col-sm-12">
@@ -241,7 +234,7 @@ const understand = () => {
           </div>
           {/* sixth-container */}
           <div className="understand-sixth-container">
-            <h2>Solutions For Acidity Problems</h2>
+            <h2>Solutions For Heartburn Problems</h2>
             <p>
               Luckily, there are a few things you can do to get relief from
               acidity symptoms such as taking Eno, that
