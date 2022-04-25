@@ -2,6 +2,7 @@ import React from "react";
 import "./Ingestion.css";
 import File from './file'
 import Whereto from '../Whereto/Whereto'
+import Youmight from '../Youmight/Youmight'
 
 
 const Ingestion = () => {
@@ -197,6 +198,7 @@ const Ingestion = () => {
       </div>
     </div>
     <Whereto/>
+    <Youmight/>
 
     </>
   );

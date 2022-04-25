@@ -205,3 +205,10 @@ background-size: contain;
     font-size: 1.1rem;
 }
 
+@media screen and (max-width:1250px) {
+    .symptoms-main-container{
+        padding: 2%;
+    }
+    
+}
+

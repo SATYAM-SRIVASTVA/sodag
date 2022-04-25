@@ -2,6 +2,7 @@ import React from 'react'
 import './Stomachhurt.css'
 import File from './file'
 import Whereto from '../Whereto/Whereto'
+import Youmight from '../Youmight/Youmight'
 
 
 const Stomachhurt = () => {
@@ -138,6 +139,7 @@ const Stomachhurt = () => {
         </div>
     </div>
         <Whereto/>
+        <Youmight/>
     </>
   )
 }

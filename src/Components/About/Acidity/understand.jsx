@@ -2,6 +2,7 @@ import React from "react";
 import "./understand.css";
 import Whereto from '../Whereto/Whereto'
 import File from '../Type/file'
+import Youmight from '../Youmight/Youmight'
 
 const understand = () => {
   return (
@@ -402,6 +403,7 @@ const understand = () => {
         </div>
       </div>
       <Whereto/>
+      <Youmight/>
     </>
   );
 };

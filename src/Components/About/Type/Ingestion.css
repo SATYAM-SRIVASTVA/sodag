@@ -55,7 +55,7 @@ padding: 4rem 0 2rem 0;
     font-size: 1.1rem;
 }
 .ingestion-image-container{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,9 +63,8 @@ padding: 4rem 0 2rem 0;
 }
 .ingestion-image{
     padding: 2rem 0;
-   
-    height: 25rem;
-    width:32rem;
+    height: 23rem;
+    width:28rem;
 }
 
 .ingestion-image-wrapper{
@@ -151,3 +150,15 @@ padding: 4rem 0 2rem 0;
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width:1250px) {
+    .ingestion-main-container{
+        padding: 3rem 0 2rem 0;
+        }
+        
+        .ingestion-main-wrapper{
+              padding: 2%;
+        }
+        .ingestion-second-container>h2{
+            padding: 2rem 0;
+        }
+}
