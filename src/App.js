@@ -1,4 +1,6 @@
 import './App.css';
+ 
+import Gred from './Components/About/Type/Gred';
 import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import {BrowserRouter as Router , Routes,Route} from 'react-router-dom'

@@ -9,6 +9,10 @@
     "bootstrap": "^5.1.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+<<<<<<< HEAD
+=======
+    "react-multi-carousel": "^2.8.0",
+>>>>>>> 648bd12dc8612d783f0804c947c26321c4d3ead0
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
