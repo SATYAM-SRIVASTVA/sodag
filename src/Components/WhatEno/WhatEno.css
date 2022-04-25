@@ -1,0 +1,97 @@
+.skew {
+  width: 100%;
+}
+.eno-first {
+  width: 100%;
+  height: 30rem;
+}
+.eno-image-cont {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/discover-eno/discover-the/desktop/discover-eno-hero-banner.jpg?auto=format");
+}
+
+.second {
+  width: 100%;
+  border-top: solid #d2012c 1rem;
+  height: 150vh;
+  transform: skewY(-8.5deg);
+  background-color: white;
+  margin-top: -7rem;
+  border-bottom: solid #d2012c 1rem;
+}
+
+.second-cont {
+  transform: skewY(8.5deg);
+  width: 100%;
+
+  height: 50vh;
+}
+.icon-cont-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third {
+  width: 100%;
+  height: 28rem;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/home/desktop/Did_You_Know_bg-new.png?auto=format");
+  margin-top: -7rem;
+}
+.third-image-cont {
+  margin-left: 25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.third > div {
+  padding-top: 10rem;
+}
+.products-text-wrapper {
+  width: 100%;
+  height: 100vh;
+  font-size: 0.9rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(186, 217, 138),
+    rgb(211, 229, 173),
+    rgb(186, 217, 138)
+  );
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 20rem solid transparent;
+  border-right: 100vw solid rgb(186, 217, 138);
+  border-bottom: 0 solid transparent;
+  background-image: linear-gradient(
+    to right,
+    #28b950,
+    #62c54f,
+    #8ad150,
+    #afdc55,
+    #d2e65d,
+    #d4e75e,
+    #d7e960,
+    #d9ea61,
+    #bce25b,
+    #9ed958,
+    #7ed056,
+    #5bc757
+  );
+}
+
+.third-image-cont {
+  width: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
