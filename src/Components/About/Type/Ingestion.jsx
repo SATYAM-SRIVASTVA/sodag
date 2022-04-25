@@ -1,8 +1,14 @@
 import React from "react";
 import "./Ingestion.css";
+import File from './file'
+import Whereto from '../Whereto/Whereto'
+
 
 const Ingestion = () => {
   return (
+    <>
+    <File/>
+
     <div className="ingestion-main-container">
       <div className="ingestion-main-wrapper">
         <div className="ingestion-first-container">
@@ -190,6 +196,9 @@ const Ingestion = () => {
         </div>
       </div>
     </div>
+    <Whereto/>
+
+    </>
   );
 };
 

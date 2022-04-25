@@ -1,9 +1,12 @@
 import React from "react";
 import "./understand.css";
+import Whereto from '../Whereto/Whereto'
+import File from '../Type/file'
 
 const understand = () => {
   return (
     <>
+        <File/>
       <div className="understand-main-container">
         <div className="understand-main-wrapper">
           {/* first-container */}
@@ -398,6 +401,7 @@ const understand = () => {
           </div>
         </div>
       </div>
+      <Whereto/>
     </>
   );
 };

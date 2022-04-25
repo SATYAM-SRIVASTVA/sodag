@@ -2,6 +2,10 @@
     padding: 0 18%;
 }
 
+.remedies-main-wrapper{
+    padding: 3rem 0;
+}
+
 .remedies-first-cont>p{
     text-align: center;
     line-height: 28px;

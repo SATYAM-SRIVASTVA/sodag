@@ -2,6 +2,10 @@
     padding: 0 18%;
 }
 
+.living-main-wrapper{
+    padding:2rem 0;
+}
+
 .living-first-cont>h2{
     text-align: center;
     color: #1e3796;

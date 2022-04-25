@@ -43,18 +43,29 @@ function App() {
     {/* <SymptomsHeartburn/> */}
 
     {/* <RemediesHeartburn/> */}
-    <Gas/>
-    <RemediesHeartburn/>
+    {/* <Gas/> */}
+    {/* <RemediesHeartburn/> */}
  
 
-    <Router>
+     <Router>
     <Navbar/>
     <Routes>
       <Route path='/' exact element={<Header/>} />
-      <Route path='/acidity' element={<Acidity/>} />
+      <Route path='/gred' element={<Gred/>} />
+      <Route path='/indigestion' element={<Ingestion/>} />
+      <Route path='/stomach' element={<Stomachhurt/>} />
+      <Route path='/understand' element={<Understand/>} />
+      <Route path='/symptoms' element={<Symptoms/>} />
+      <Route path='/living' element={<Living/>} />
+      <Route path='/remedies' element={<Remedies/>} />
+      <Route path='/understandheartburn' element={<UnderstandHeartburn/>} />
+      <Route path='/symptomsheartburn' element={<SymptomsHeartburn/>} />
+      <Route path='/remediesheartburn' element={<RemediesHeartburn/>} />
+      <Route path='/gas' element={<Gas/>} />
+
     </Routes>
 
-    </Router>
+    </Router> 
     
 
 

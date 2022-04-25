@@ -1,10 +1,12 @@
 import React from "react";
 import "./Gred.css";
 import Whereto from '../Whereto/Whereto'
+import File from './file'
 
 const Gred = () => {
   return (
     <>
+    <File/>
       <div className="gred-main-container">
       <div className="gred-main-wrapper">
         {/* first container */}
