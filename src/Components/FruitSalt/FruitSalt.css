@@ -1,51 +1,53 @@
 .skew {
   width: 100%;
 }
-.sachet-first {
+.bottle-first {
   width: 100%;
   height: 30rem;
   
 }
-.sachet-image-cont {
+.bottle-image-cont {
   width: 100%;
   height: 100%;
   background-image: url("https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/edo-product-hero-banner.jpg?auto=format");
 }
-
-.sachet-second {
+ 
+.bottle-second {
   width: 100%;
   border-top: solid #d2012c 1rem;
-  height: 250vh;
+  height: auto;
   transform: skewY(-10deg);
   background-color: white;
   margin-top: -7rem;
   border-bottom: solid #d2012c 1rem;
 }
-.sachet-details-cont{
+.bottle-details-cont{
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: baseline;
    align-items: center;
    padding-top: 2rem;
-   font-size: 1rem;
+   font-size: 1.1rem;
+   padding-left: 14rem;
    width: 100vw;
-   height: 70%;
-   padding-left: 5rem;
-   padding-right: 7rem;
+   height: 100%;
+  padding-bottom: 5rem;
 }
-
-.sachet-second-heading-cont{
+.bottle-details-cont>*{
+  width: 60%;
+}
+.bottle-second-heading-cont{
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.sachet-second-para{
+.bottle-second-para{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
-.sachet-columns-cont{
+.columns-cont{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,35 +55,37 @@
     padding-top: 3rem;
 }
 
-.sachet-second-heading-cont>h1{
+.bottle-second-heading-cont>h1{
     text-align: center;
 }
 
-.sachet-second-text-wrap{
+.bottle-second-text-wrap{
     padding: 0 18%;
 }
 
-.sachet-second-para>h5{
+.bottle-second-para>h5{
     text-align: center;
 }
 
-.sachet-card-cont{
+.bottle-card-cont{
     padding-top: 7rem;
+    display: flex;
+    justify-content: center;
     
 }
-.sachet-second-cont {
+.bottle-second-cont {
   transform: skewY(10deg);
   width: 100%;
 
-  height: 50vh;
+ 
 }
-.sachet-fruits-li-cont {
+.bottle-fruits-li-cont {
     justify-content: center;
     padding-right: 10%;
     padding-top: 1rem;
     font-size: 1rem;
   }
-.sachet-third {
+.bottle-third {
   width: 100%;
   height: 35rem;
   display: flex;
@@ -103,21 +107,21 @@
   );
   margin-top: -7rem;
 }
-.sachet-third-image-cont{
+.bottle-third-image-cont{
    margin-left: 25rem;
    justify-content: center;
    align-items: center;
    display: flex;
    flex-direction: row;
 }
-.sachet-third > div {
+.bottle-third > div {
   padding-top: 10rem;
 }
 
-.sachet-card-wrapper{
+.bottle-card-wrapper{
     padding: 3rem;
 } 
-.sachet-products-text-wrapper {
+.bottle-products-text-wrapper {
   width: 100%;
   height: 100vh;
   font-size: 0.9rem;
@@ -130,28 +134,28 @@
 }
 
 
-.sachet-precautions-cont {
+.bottle-precautions-cont {
   padding-left: 7rem;
   padding-top: 5rem;
   /* transform: skewY(10deg); */
 }
-.sachet-card-wrapper {
+.bottle-card-wrapper {
   width: 100%;
   display: flex;
 
   align-items: center;
   justify-content: center;
 }
-.sachet-card-cont > div {
+.bottle-card-cont > div {
   width: calc(50% - 2rem);
   margin: 1rem;
   padding: 0;
   border-radius: 0 0 30px 0;
 }
-.sachet-card-cont {
-  width: 60%;
+.bottle-card-cont {
+  width: 20%;
 }
-.sachet-card-image {
+.bottle-card-image {
   width: 100%;
   height: auto;
   background-image: linear-gradient(
@@ -161,6 +165,7 @@
     rgb(186, 217, 138)
   );
 }
+
 .custom-btn {
   width: 80%;
   margin: 0 10%;
@@ -179,7 +184,7 @@
   transform: scale(1.05);
 }
 
-.sachet-precautions-cont > h5 {
+.bottle-precautions-cont > h5 {
   padding-top: 2rem;
 }
 
@@ -207,10 +212,44 @@
 }
     
 
-.sachet-third-image-cont{
+.bottle-third-image-cont{
     width: 40rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media screen and (max-width:1250px) {
+  .bottle-second-text-wrap{
+    padding: 2%;
+}
+
+.bottle-card-cont{
+  padding-top: 6rem;
+  width: 60%;
+}
+
+.bottle-card-wrapper{
+  padding: 1rem;
+}
+
+.bottle-second{
+height: 100%;
+}
+.bottle-third-image-cont{
+margin-left: 7rem;
+width: 45vw;
+}
+}
+
+@media (max-width:600px) {
+.bottle-second-first-row{
+  display: flex;
+  flex-direction: column;
+   padding: 2rem;
+}
+.bottle-details-cont{
+  padding-left: 3rem;
+}
 }

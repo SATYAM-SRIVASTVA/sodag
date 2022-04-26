@@ -1,6 +1,6 @@
 import React from 'react'
 import './Textimg.css'
-import img1 from '../Assets/img5.jpg'
+import img1 from './Assets/img5.jpg'
 
 const Textimg = () => {
   return (

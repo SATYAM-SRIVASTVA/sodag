@@ -20,8 +20,15 @@ const Skew = () => {
         <div className="bottle-second-cont">
           <div className="bottle-card-wrapper">
             <div className="bottle-card-cont row m-0">
-              <div class="card">
+              <div class="card-body">
                 <Slider {...settings}>
+                  <div >
+                    <img
+                      src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
+                      class="card-img-top card-image"
+                      alt="..."
+                    />
+                  </div >
                   <div>
                     <img
                       src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
@@ -29,14 +36,7 @@ const Skew = () => {
                       alt="..."
                     />
                   </div>
-                  <div>
-                    <img
-                      src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
-                      class="card-img-top card-image"
-                      alt="..."
-                    />
-                  </div>
-                  <div>
+                  <div >
                     <img
                       src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
                       class="card-img-top card-image"
@@ -46,32 +46,7 @@ const Skew = () => {
                 </Slider>
                 <div class="card-body"></div>
               </div>
-              <div class="card">
-                <Slider {...settings}>
-                  <div>
-                    <img
-                      src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
-                      class="card-img-top card-image"
-                      alt="..."
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
-                      class="card-img-top card-image"
-                      alt="..."
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format"
-                      class="card-img-top card-image"
-                      alt="..."
-                    />
-                  </div>
-                </Slider>
-                <div class="card-body"></div>
-              </div>
+             
             </div>
           </div>
           <div className="bottle-second-text-cont">
@@ -88,7 +63,7 @@ const Skew = () => {
               </div>
               <div className="bottle-columns-cont">
                 <div className="bottle-second-first-row row">
-                  <div className="bottle-second-first-col col col-lg-6 col-md-12 col-sm-12">
+                  <div className="bottle-second-first-col col col-lg-6 col-md-12 col-sm-12 col-xm-12">
                     <h2 style={{ color: "#034EA2", fontStyle: "italic" }}>
                       Ingredients
                     </h2>
@@ -99,7 +74,7 @@ const Skew = () => {
                       appropriate.
                     </p>
                   </div>
-                  <div className="bottle-second-second-col col col-lg-6 col-md-12 col-sm-12">
+                  <div className="bottle-second-second-col col col-lg-6 col-xm-12 col-md-12 col-sm-12">
                     <h2 style={{ color: "#034EA2", fontStyle: "italic" }}>
                       Directions & Dosage
                     </h2>
@@ -118,9 +93,9 @@ const Skew = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bottle-details-cont">
-            <details style={{ color: "#034EA2" }}>
+            <div className="bottle-details-cont">
+            <details >
+                  <summary style={{ color: "#034EA2" }}>Precautions</summary>
                 <div className="fruits-li-cont" style={{color:'#555555'}}>
               <li>Do not take this medicine for more than 14 days</li>
               <li>In case of overdose, consult a doctor</li>
@@ -151,6 +126,8 @@ const Skew = () => {
               </div>
             </details>
           </div>
+          </div>
+          
         </div>
       </div>
       <div className="bottle-third">

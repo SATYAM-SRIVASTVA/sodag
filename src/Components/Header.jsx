@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
 import Slider from 'react-slick'
-import img1 from '../Assets/img1.jpg'
-import img6 from '../Assets/img6.jpg'
-import img7 from '../Assets/img7.jpg'
+import img1 from './Assets/img1.jpg'
+import img6 from './Assets/img6.jpg'
+import img7 from './Assets/img7.jpg'
 import Featured from './Featured';
 import Textimg from './Textimg';
 import Footer from './Footer';
@@ -16,7 +16,7 @@ const Header = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 2000,
       pauseOnHover: true
       };
   return (

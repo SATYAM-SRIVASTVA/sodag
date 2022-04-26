@@ -11,11 +11,11 @@
     height: 100%;
     background-image: url("https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/edo-product-hero-banner.jpg?auto=format");
   }
-  
+   
   .bottle-second {
     width: 100%;
     border-top: solid #d2012c 1rem;
-    height: 250vh;
+    height: auto;
     transform: skewY(-10deg);
     background-color: white;
     margin-top: -7rem;
@@ -24,16 +24,18 @@
   .bottle-details-cont{
      display: flex;
      flex-direction: row;
-     justify-content: center;
+     justify-content: baseline;
      align-items: center;
      padding-top: 2rem;
      font-size: 1.1rem;
+     padding-left: 14rem;
      width: 100vw;
-     height: 70%;
-     padding-left: 5rem;
-     padding-right: 7rem;
+     height: 100%;
+    padding-bottom: 5rem;
   }
-  
+  .bottle-details-cont>*{
+    width: 60%;
+  }
   .bottle-second-heading-cont{
       justify-content: center;
       align-items: center;
@@ -67,13 +69,15 @@
   
   .bottle-card-cont{
       padding-top: 7rem;
+      display: flex;
+      justify-content: center;
       
   }
   .bottle-second-cont {
     transform: skewY(10deg);
     width: 100%;
   
-    height: 50vh;
+   
   }
   .bottle-fruits-li-cont {
       justify-content: center;
@@ -149,7 +153,7 @@
     border-radius: 0 0 30px 0;
   }
   .bottle-card-cont {
-    width: 60%;
+    width: 20%;
   }
   .bottle-card-image {
     width: 100%;
@@ -161,6 +165,7 @@
       rgb(186, 217, 138)
     );
   }
+  
   .custom-btn {
     width: 80%;
     margin: 0 10%;
@@ -214,3 +219,37 @@
       justify-content: space-evenly;
       align-items: center;
   }
+
+  @media screen and (max-width:1250px) {
+    .bottle-second-text-wrap{
+      padding: 2%;
+  }
+
+  .bottle-card-cont{
+    padding-top: 6rem;
+    width: 60%;
+  }
+  
+  .bottle-card-wrapper{
+    padding: 1rem;
+}
+
+.bottle-second{
+  height: 100%;
+}
+.bottle-third-image-cont{
+  margin-left: 7rem;
+  width: 45vw;
+}
+}
+
+@media (max-width:600px) {
+  .bottle-second-first-row{
+    display: flex;
+    flex-direction: column;
+     padding: 2rem;
+  }
+  .bottle-details-cont{
+    padding-left: 3rem;
+  }
+}

@@ -114,3 +114,10 @@ padding-top: 5rem;
 	border-right: 100vw solid rgb(186,217,138);
 	border-bottom: 0 solid transparent;
 }
+
+@media screen and (max-width:1250px) {
+    .product-card-cont{
+        display: flex;
+        flex-direction: column;
+    }
+}

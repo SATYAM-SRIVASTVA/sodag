@@ -3,22 +3,6 @@
 }
 
 .diagonal{
-<<<<<<< HEAD
-    background-image: linear-gradient(45deg, #6303B1, #ff0099);
-    height: auto;
-    transform: skewY(-10deg);
-    position: relative;
-    z-index: -10;
-    margin-top: -7rem;
-    margin-bottom: 10rem;
-    outline: none;
-    overflow: hidden
-    ;
-}
-
-.diagonal:before {
-    position: absolute;
-=======
     /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
     background-color: red;
     transform: skewY(-8deg);
@@ -31,7 +15,6 @@
 
 /* .diagonal:before {
 	position: absolute;
->>>>>>> 648bd12dc8612d783f0804c947c26321c4d3ead0
     top: 0;
     right: 0;
     left: 0;
@@ -41,11 +24,6 @@
 } */
 
 .img-container{
-<<<<<<< HEAD
-    border-bottom: 17px solid rgb(213,0,45);
-    width: 100vw;
-    overflow: hidden;
-=======
     width: 100%;
 }
 
@@ -160,5 +138,4 @@
         width: 100%;
         height: 100%;
     }
->>>>>>> 648bd12dc8612d783f0804c947c26321c4d3ead0
 }

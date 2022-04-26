@@ -10,7 +10,8 @@ const Skew = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
       };
   return (
     <div className='Skew'>
@@ -23,17 +24,18 @@ const Skew = () => {
             <div className="product-second-cont">
             <div className="product-card-wrapper">
       <div className="product-card-cont row m-0">
+        
       <div class="card" >
       <Slider {...settings}>
           
           <div>
-          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
+          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-sachet-regular.png?auto=format" alt="..."/>
           </div>
           <div>
-          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
+          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-sachet-orange.png?auto=format" alt="..."/>
           </div>
           <div>
-          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
+          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-sachet-cola.png?auto=format" class="card-img-top card-image" alt="..."/>
           </div>
         </Slider>
    <div class="card-body">
@@ -49,10 +51,10 @@ const Skew = () => {
           <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
           </div>
           <div>
-          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
+          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-lemon.png?auto=format" alt="..."/>
           </div>
           <div>
-          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-regular.png?auto=format" class="card-img-top card-image" alt="..."/>
+          <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/eno-bottle-orange.png?auto=format" alt="..."/>
           </div>
         </Slider>
           <div class="card-body">
