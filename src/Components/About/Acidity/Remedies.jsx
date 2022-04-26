@@ -1,9 +1,12 @@
 import React from "react";
 import "./Remedies.css";
+import Whereto from '../Whereto/Whereto'
+import File from '../Type/file'
 
 const Remedies = () => {
   return (
     <>
+        <File/>
       <div className="remedies-main-container">
         <div className="remedies-main-wrapper">
           <div className="remedies-first-cont">
@@ -298,6 +301,8 @@ const Remedies = () => {
           </div>
         </div>
       </div>
+      <Whereto/>
+
     </>
   );
 };

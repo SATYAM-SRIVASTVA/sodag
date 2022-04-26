@@ -1,5 +1,6 @@
 .gred-main-container {
   text-align: center;
+  padding: 5rem 0 2rem 0 ;
 }
 
 .gred-main-wrapper{
@@ -328,5 +329,13 @@
     text-align: center;
 }
 
+@media screen and (max-width:1250px) {
+    .gred-main-wrapper{
+        padding: 2%;
+    }
 
+    .gred-main-container{
+        padding: 3rem 0 2rem 0;
+    }
+}
 
