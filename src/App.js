@@ -12,8 +12,8 @@ import WhatEno from "./Components/WhatEno/WhatEno";
 function App() {
   return (
     <>
-      /*{" "}
-      <Router>
+      {" "}
+      {/* <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Header />} />
@@ -23,7 +23,10 @@ function App() {
           <Route path="" element ={<WhatEno />}/>
        </Routes>
        
-      </Router>
+      </Router> */}
+      <EnoBottle/>
+      <FruitSalt/>
+      <WhatEno/>
     </>
   );
 }
