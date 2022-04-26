@@ -37,6 +37,7 @@ function App() {
       <Route path='/symptomsheartburn' element={<SymptomsHeartburn/>} />
       <Route path='/remediesheartburn' element={<RemediesHeartburn/>} />
       <Route path='/gas' element={<Gas/>} />
+      {/* <Route path='/understand' element={<Unders/>} /> */}
     </Routes>
     </Router>  
     </>

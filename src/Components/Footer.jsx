@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
 return (
@@ -25,10 +27,16 @@ return (
 <div class="footer-info-single">
   <h2 class="title">About Acidity</h2>
   <ul class="list-unstyled">
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Acidity & Acid Reflex</a></li>
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Managing Acidity</a></li>
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Other Digestive Conditions</a></li>
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i> Digestive Wellness</a></li>
+  
+    <li><a href="" title=""><Link  to="/understand"><i class="fa fa-angle-double-right">
+      </i>Acidity & Acid Reflex</Link></a></li>
+    <li><a href="" title=""><Link  to="/living"><i class="fa fa-angle-double-right">
+      </i>Managing Acidity</Link></a></li>
+    <li><a href="" title=""><Link  to="/understandheartburn"><i class="fa fa-angle-double-right">
+      </i>Other Digestive Conditions</Link></a></li>
+    
+    <li><a href="" title=""><Link  to="/gas"><i class="fa fa-angle-double-right">
+      </i> Digestive Wellness</Link></a></li>
   </ul>
 </div>
 </div>
