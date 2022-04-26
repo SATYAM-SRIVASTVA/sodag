@@ -1,10 +1,13 @@
 import React from "react";
 import "./Gred.css";
 import Whereto from '../Whereto/Whereto'
+import File from './file'
+import Youmight from '../Youmight/Youmight'
 
 const Gred = () => {
   return (
     <>
+    <File/>
       <div className="gred-main-container">
       <div className="gred-main-wrapper">
         {/* first container */}
@@ -284,6 +287,7 @@ const Gred = () => {
       </div>
       <Whereto/>
       </div>
+      <Youmight/>
     </>
   );
 };

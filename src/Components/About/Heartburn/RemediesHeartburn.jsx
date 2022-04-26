@@ -1,9 +1,11 @@
 import React from 'react'
 import './RemediesHeartburn.css'
+import File from '../Type/file'
 
 const RemediesHeartburn = () => {
   return (
     <>
+        <File/>
       <div className="remedies-main-container">
         <div className="remedies-main-wrapper">
           <div className="remedies-first-cont">

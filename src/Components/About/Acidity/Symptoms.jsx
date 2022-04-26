@@ -1,8 +1,11 @@
 import React from "react";
 import "./Symptoms.css";
+import File from '../Type/file'
 
 const Symptoms = () => {
   return (
+    <>
+        <File/>
     <div className="symptoms-main-container">
       <div className="symptoms-main-wrapper">
         <div className="symptoms-first-container">
@@ -254,6 +257,7 @@ const Symptoms = () => {
       </div>       
       </div>
       </div>
+      </>
   );
 };
 
