@@ -1,10 +1,15 @@
 import React from "react";
 import "./SymptomsHeartburn.css";
+import File from '../Type/file'
 
 const SymptomsHeartburn = () => {
   return (
+    <>
+        <File/>
+
     <div className="symptoms-main-container">
       <div className="symptoms-main-wrapper">
+    
         <div className="symptoms-first-container">
           <h2>A Little Acidity Is Still Too Much</h2>
           <p>
@@ -241,6 +246,7 @@ const SymptomsHeartburn = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

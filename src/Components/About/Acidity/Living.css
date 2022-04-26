@@ -2,6 +2,10 @@
     padding: 0 18%;
 }
 
+.living-main-wrapper{
+    padding:2rem 0;
+}
+
 .living-first-cont>h2{
     text-align: center;
     color: #1e3796;
@@ -268,4 +272,24 @@
     background-image: url('https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/all-about-acidity/acidity-free/desktop/Asset-keep-calm.png?auto=format');
     background-repeat: no-repeat;
     background-size: contain;
+}
+@media screen and (max-width:1250px) {
+    .living-main-container{
+        padding: 2%;
+    }
+ 
+    .living-first-div{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem ;
+    }
+
+    .living-secondcolimg-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

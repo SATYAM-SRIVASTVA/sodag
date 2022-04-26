@@ -178,3 +178,9 @@
     font-weight: 600;
     font-size: 1.199rem;
 }
+
+@media screen and (max-width:1250px) {
+    .remedies-main-container{
+        padding: 2%;
+    }
+}

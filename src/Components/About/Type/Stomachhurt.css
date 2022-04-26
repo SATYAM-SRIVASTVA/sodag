@@ -1,3 +1,7 @@
+.stomach-main-container{
+  text-align: center;
+    padding: 4rem 0 2rem 0;
+}
 .stomach-main-wrapper{
     padding: 0 18%;
 }
@@ -104,3 +108,9 @@
 .last-adjust{
     padding-top: 1rem;
 }
+
+ @media screen and (max-width:1250px) {
+    .stomach-main-wrapper{
+        padding: 2%;
+    }
+} 
