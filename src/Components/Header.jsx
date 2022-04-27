@@ -6,7 +6,7 @@ import img6 from './Assets/img6.jpg'
 import img7 from './Assets/img7.jpg'
 import Featured from './Featured';
 import Textimg from './Textimg';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 const Header = () => {
 
@@ -62,7 +62,6 @@ const Header = () => {
 
 <Featured/>
 <Textimg/>
-<Footer/>
 
 </>
   )
