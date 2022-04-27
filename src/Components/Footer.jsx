@@ -45,7 +45,7 @@ return (
 <div class="footer-info-single">
   <h2 class="title">Products</h2>
   <ul class="list-unstyled">
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>sodaG Fruit Salt</a></li>
+    <li><a href="" title=""><Link  to="/sachet"><i class="fa fa-angle-double-right"></i>sodaG Fruit Salt</Link></a></li>
   </ul>
 </div>
 </div>
@@ -54,7 +54,7 @@ return (
 <div class="footer-info-single">
   <h2 class="title">Discover sodaG</h2>
   <ul class="list-unstyled">
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>How sodaG Works</a></li>
+    <li><a href="" title=""><Link  to="/bottle"><i class="fa fa-angle-double-right"></i>How sodaG Works</Link></a></li>
     <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Our Story</a></li>
     <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Latest Campaigns</a></li>
   </ul>

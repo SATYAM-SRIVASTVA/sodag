@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from "../../Header";
 import Slider from 'react-slick'
-import img1 from '../../../Assets/img7.jpg'
-import img6 from '../../../Assets/img6.jpg'
-import img7 from '../../../Assets/img7.jpg'
+import img1 from '../../Assets/img1.jpg'
+import img6 from '../../Assets/img6.jpg'
+import img7 from '../../Assets/img7.jpg'
 
 
 
