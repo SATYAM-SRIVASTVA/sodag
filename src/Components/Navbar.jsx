@@ -40,9 +40,9 @@ const Navbar = () => {
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           End Products
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><Link to="/sachet">Eno Fruit Salt(Sachet)</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/bottle">Eno Fruit SAlt(Bottle)</Link></a>
+        <div class="dropdown-menu product-soda" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><Link to="/sachet"><img className='sachet-img' src='https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/product-details/desktop/related-product-img1.png?auto=format' /></Link></a>
+          <a class="dropdown-item" href="#"><Link to="/bottle"><img className='sachet-img' src='https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/eno-products/product-details/desktop/related-product-img2.png?auto=format' /></Link></a>
           </div>
       </li>
 
